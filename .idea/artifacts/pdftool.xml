@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="pdftool">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="pdftool.war">
+      <element id="file-copy" path="$PROJECT_DIR$/target/pdf-tool-1.0-SNAPSHOT.war" />
+    </root>
+  </artifact>
+</component>
