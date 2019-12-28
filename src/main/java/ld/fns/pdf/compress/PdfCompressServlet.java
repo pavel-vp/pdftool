@@ -52,7 +52,10 @@ public class PdfCompressServlet extends HttpServlet {
             } else {
                 bos = bosGS;
             }
-        } catch (  ImageReadException | DocumentException e) {
+        } catch (  ImageReadException e ) {
+            e.printStackTrace();
+            throw new ServletException(e);
+        } catch ( DocumentException e ) {
             e.printStackTrace();
             throw new ServletException(e);
         }

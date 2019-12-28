@@ -28,7 +28,7 @@ public class PDFCompressGS {
         System.out.println(outFileName);
         try {
             // todo 64
-            String command = "gswin32c -sDEVICE=pdfwrite -sProcessColorModel=DeviceGray -sColorConversionStrategy=Gray -dOverrideICC -dPDFSETTINGS=/screen -dEmbedAllFonts=true -dSubsetFonts=true -dColorImageDownsampleType=/Bicubic -dColorImageResolution=150 -dGrayImageDownsampleType=/Bicubic -dGrayImageResolution=150 -dMonoImageDownsampleType=/Bicubic -dMonoImageResolution=150 -o \""+outFileName+"\" -f \""+inpFileName+"\"";
+            String command = "gswin64c -sDEVICE=pdfwrite -sProcessColorModel=DeviceGray -sColorConversionStrategy=Gray -dOverrideICC -dPDFSETTINGS=/screen -dEmbedAllFonts=true -dSubsetFonts=true -dColorImageDownsampleType=/Bicubic -dColorImageResolution=150 -dGrayImageDownsampleType=/Bicubic -dGrayImageResolution=150 -dMonoImageDownsampleType=/Bicubic -dMonoImageResolution=150 -o \""+outFileName+"\" -f \""+inpFileName+"\"";
             System.out.println(command);
             executeInTerminal(command);
             //executeInTerminal("ping -n 3 google.com");
