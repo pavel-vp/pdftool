@@ -25,6 +25,6 @@ http://localhost:9191/pdftool/compresspdf
 mvn install
 ```
 
-2. Копирование файла **target/web-xls.war** в папку **webapps** контейнера или сервера (например, tomcat).
+2. Копирование файла **target/pdftool.war** в папку **webapps** контейнера или сервера (например, tomcat).
 
 
