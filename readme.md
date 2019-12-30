@@ -1,10 +1,13 @@
 # Парсинг Excell files to xml.
 
-    ### Старт сервера:
-    ```
+### Старт сервера:
+
+```
 mvn cargo:run
 ```
+
 Перезаливка приложения без рестарта:
+
 ```
 mvn package
 mvn cargo:deploy
@@ -12,12 +15,13 @@ mvn cargo:deploy
 
 Проверять из maven:
 
-    http://localhost:9191/pdftool/compresspdf
+http://localhost:9191/pdftool/compresspdf
 
-        ### Установка
+### Установка
 
 1. Сборка проекта:
-    ```
+
+```
 mvn install
 ```
 
