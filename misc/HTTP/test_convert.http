@@ -1,0 +1,14 @@
+# Не понятно - как передавать - будто с диском работает!
+
+# 1. txt
+POST http://localhost:9191/pdftool/convertpdf
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="field-name"; filename="test.txt"
+
+< ./test.txt
+--WebAppBoundary--
+
+###
+

@@ -1,0 +1,35 @@
+# 1. txt - Error!
+POST http://localhost:9191/pdftool/compresspdf
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="field-name"; filename="test.txt"
+
+< ./test.txt
+--WebAppBoundary--
+
+###
+
+# 2. pdf - ???
+POST http://localhost:9191/pdftool/compresspdf
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="field-name"; filename="test.pdf"
+
+< ./test.pdf
+--WebAppBoundary--
+
+###
+
+# 3. pdf - ???
+POST http://localhost:9191/pdftool/compresspdf
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="field-name"; filename="test1.pdf"
+
+< ./test1.pdf
+--WebAppBoundary--
+
+###

@@ -16,6 +16,7 @@ mvn cargo:deploy
 Проверять из maven:
 
 http://localhost:9191/pdftool/compresspdf
+http://localhost:9191/pdftool/convertpdf
 
 ### Установка
 
