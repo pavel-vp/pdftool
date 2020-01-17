@@ -24,7 +24,8 @@ public class PDFCompressGS {
             if (outStream!=null)
                 outStream.close();
         }
-        String outFileName = UUID.randomUUID()+".pdf";
+        File outFile = File.createTempFile("OUT", ".pdf");
+        String outFileName = outFile.getAbsolutePath();
         System.out.println(outFileName);
         try {
             // todo 64
@@ -36,7 +37,6 @@ public class PDFCompressGS {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
-        File outFile = new File(outFileName);
         OutputStream out = null;
         try{
             out = output;
