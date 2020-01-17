@@ -35,3 +35,11 @@ Content-Disposition: form-data; name="field-name"; filename="test.png"
 --WebAppBoundary--
 
 ###
+
+POST http://localhost:9191/pdftool/convertpdf
+Content-Type: image/png
+Document-Extension: png
+
+< ./test.png
+
+###

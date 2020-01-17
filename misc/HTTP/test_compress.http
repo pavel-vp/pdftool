@@ -24,12 +24,8 @@ Content-Disposition: form-data; name="field-name"; filename="test.pdf"
 
 # 3. pdf - ???
 POST http://localhost:9191/pdftool/compresspdf
-Content-Type: multipart/form-data; boundary=WebAppBoundary
-
---WebAppBoundary
-Content-Disposition: form-data; name="field-name"; filename="test1.pdf"
+Content-Type: application/pdf
 
 < ./test1.pdf
---WebAppBoundary--
 
 ###
