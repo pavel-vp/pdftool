@@ -29,3 +29,11 @@ Content-Type: application/pdf
 < ./test1.pdf
 
 ###
+
+### curl -X POST -H "content-type:application/pdf" -F "data=@./test1.pdf"  http://172.27.9.79:8088/pdftool/compresspdf --output res.pdf
+POST http://172.27.9.79:8088/pdftool/compresspdf
+Content-Type: application/pdf
+
+< ./test1.pdf
+
+###

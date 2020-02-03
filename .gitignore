@@ -1,0 +1,4 @@
+/target/
+/build/ld/fns/pdf/compress/
+.gitignore
+/.idea/
