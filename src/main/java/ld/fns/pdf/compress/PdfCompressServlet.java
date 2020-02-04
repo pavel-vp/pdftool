@@ -47,9 +47,8 @@ public class PdfCompressServlet extends HttpServlet {
 
             System.out.println("itext size = " + bosIText.size());
             System.out.println("gs size = " + bosGS.size());
-            if (bosGS.size() > bosIText.size()) {
-                bos = bosIText;
-            } else {
+            bos = bosIText;
+            if ((bosGS.size() != 0) && (bosGS.size() < bosIText.size())) {
                 bos = bosGS;
             }
         } catch (  ImageReadException e ) {

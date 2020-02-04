@@ -69,7 +69,7 @@ public class PDFCompressITextUtil {
 
                 int width = (int)(bi.getWidth() * downscaleFactor);
                 int height = (int)(bi.getHeight() * downscaleFactor);
-                BufferedImage img = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
+                BufferedImage img = new BufferedImage(width, height, BufferedImage.TYPE_USHORT_GRAY);//TYPE_INT_RGB);
                 AffineTransform at = AffineTransform.getScaleInstance(downscaleFactor, downscaleFactor);
                 Graphics2D g = img.createGraphics();
                 g.drawRenderedImage(bi, at);
