@@ -23,12 +23,14 @@ public class PdfConvertServlet extends HttpServlet {
         String inpFileName = inpFile.getAbsolutePath();
         System.out.println(inpFileName);
         OutputStream outStream = null;
+        ByteArrayOutputStream byteStreamInput = new ByteArrayOutputStream();
         try{
             outStream= new FileOutputStream(inpFile);
             int read = 0;
             byte[] bytes = new byte[1024];
             while ((read = request.getInputStream().read(bytes)) != -1) {
                 outStream.write(bytes, 0, read);
+                byteStreamInput.write(bytes, 0, read);
             }
         }
         finally{
@@ -36,24 +38,35 @@ public class PdfConvertServlet extends HttpServlet {
                 outStream.close();
         }
 
-        ByteArrayOutputStream bosJod = new ByteArrayOutputStream();
+        ByteArrayOutputStream bosResult = new ByteArrayOutputStream();
+        // JOD CONVERTER requires Java7
         try {
-            ConverterJod.convertToPdf(new FileInputStream(new File(inpFileName)), documentExtension, bosJod);
+            ConverterJod.convertToPdf(new FileInputStream(new File(inpFileName)), documentExtension, bosResult);
         } catch (OfficeException e) {
             e.printStackTrace();
             throw new ServletException(e);
         }
 
+        /*
+        LDConvertDocument ldConvertDocument = new LDConvertDocument();
+        try {
+            byte[] result = ldConvertDocument.ConvertToPdf(inpFile.getName(), byteStreamInput.toByteArray());
+            bosResult.write(result);
+        } catch (Exception e) {
+            e.printStackTrace();
+            throw new ServletException(e);
+        }*/
+
         response.setContentType("application/pdf");
         response.setHeader("Content-Disposition","attachment; filename=out.pdf");
-        response.setContentLength(Long.valueOf(bosJod.size()).intValue());
+        response.setContentLength(Long.valueOf(bosResult.size()).intValue());
         try {
-            bosJod.writeTo(response.getOutputStream());
+            bosResult.writeTo(response.getOutputStream());
         } catch (Exception ex) {
             ex.printStackTrace();
             throw new ServletException(ex);
         }
-        System.out.println("end. size = "+bosJod.size());
+        System.out.println("end. size = "+bosResult.size());
     }
 
 }

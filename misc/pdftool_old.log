@@ -1,0 +1,878 @@
+ODbegin
+/home/pasha/bin/apache-tomcat-8.5.50/temp/INP2954349704256784541.docx
+INFO  java.vendor=Oracle Corporation
+INFO  java.version=1.8.0_144
+INFO  No MOXy JAXB config found; assume not intended..
+INFO  Using NamespacePrefixMapperSunInternal, which is suitable for Java 6
+INFO  Using Java 6/7 JAXB implementation
+INFO  Not using MOXy; using com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl
+WARN  Couldn't get resource: docx4j.properties
+WARN  Couldn't find/read docx4j.properties; docx4j.properties not found via classloader.
+INFO  Using com.sun.org.apache.xerces.internal.jaxp.SAXParserFactoryImpl
+INFO  Using com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl
+INFO  Detected WordProcessingML package 
+INFO  Instantiated package of type org.docx4j.openpackaging.packages.WordprocessingMLPackage
+INFO  xpath implementation: org.apache.xpath.jaxp.XPathFactoryImpl
+INFO  Using DocPropsCustomPart ...
+INFO  package read;  elapsed time: 6020 ms
+INFO  unmarshalling org.docx4j.openpackaging.parts.DocPropsCorePart
+INFO  unmarshalling org.docx4j.openpackaging.parts.DocPropsExtendedPart
+INFO  unmarshalling org.docx4j.openpackaging.parts.DocPropsCustomPart
+INFO  
+
+org.docx4j.openpackaging.parts.DocPropsCustomPart unmarshalled 
+
+
+WARN  capHeight value could not be determined. The font may not work as expected.
+WARN  xHeight value could not be determined. The font may not work as expected.
+WARN  capHeight value could not be determined. The font may not work as expected.
+WARN  xHeight value could not be determined. The font may not work as expected.
+WARN  capHeight value could not be determined. The font may not work as expected.
+WARN  xHeight value could not be determined. The font may not work as expected.
+WARN  capHeight value could not be determined. The font may not work as expected.
+WARN  xHeight value could not be determined. The font may not work as expected.
+WARN  capHeight value could not be determined. The font may not work as expected.
+WARN  xHeight value could not be determined. The font may not work as expected.
+WARN  capHeight value could not be determined. The font may not work as expected.
+WARN  xHeight value could not be determined. The font may not work as expected.
+WARN  capHeight value could not be determined. The font may not work as expected.
+WARN  xHeight value could not be determined. The font may not work as expected.
+WARN  capHeight value could not be determined. The font may not work as expected.
+WARN  xHeight value could not be determined. The font may not work as expected.
+WARN  capHeight value could not be determined. The font may not work as expected.
+WARN  xHeight value could not be determined. The font may not work as expected.
+WARN  capHeight value could not be determined. The font may not work as expected.
+WARN  xHeight value could not be determined. The font may not work as expected.
+WARN  capHeight value could not be determined. The font may not work as expected.
+WARN  xHeight value could not be determined. The font may not work as expected.
+WARN  capHeight value could not be determined. The font may not work as expected.
+WARN  xHeight value could not be determined. The font may not work as expected.
+WARN  capHeight value could not be determined. The font may not work as expected.
+WARN  xHeight value could not be determined. The font may not work as expected.
+WARN  Aborting: file:/usr/share/fonts/truetype/noto/NotoSansSoraSompeng-Regular.ttf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  Aborting: file:/usr/share/fonts/truetype/noto/NotoSansDeseret-Regular.ttf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  Aborting: file:/usr/share/fonts/truetype/noto/NotoSansNabataean-Regular.ttf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  capHeight value could not be determined. The font may not work as expected.
+WARN  xHeight value could not be determined. The font may not work as expected.
+WARN  Aborting: file:/usr/share/fonts/truetype/noto/NotoSerifTibetan-Bold.ttf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  Aborting: file:/usr/share/fonts/truetype/noto/NotoSansCarian-Regular.ttf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  Aborting: file:/usr/share/fonts/truetype/noto/NotoSansThai-Regular.ttf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  capHeight value could not be determined. The font may not work as expected.
+WARN  xHeight value could not be determined. The font may not work as expected.
+WARN  Aborting: file:/usr/share/fonts/truetype/noto/NotoSansThaiUI-Bold.ttf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  capHeight value could not be determined. The font may not work as expected.
+WARN  xHeight value could not be determined. The font may not work as expected.
+WARN  Aborting: file:/usr/share/fonts/truetype/noto/NotoSansOldItalic-Regular.ttf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  Aborting: file:/usr/share/fonts/truetype/noto/NotoSansLydian-Regular.ttf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  Aborting: file:/usr/share/fonts/truetype/noto/NotoSansMro-Regular.ttf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  capHeight value could not be determined. The font may not work as expected.
+WARN  xHeight value could not be determined. The font may not work as expected.
+WARN  Aborting: file:/usr/share/fonts/truetype/noto/NotoSansCypriot-Regular.ttf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  Aborting: file:/usr/share/fonts/truetype/noto/NotoSansDuployan-Regular.ttf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  Aborting: file:/usr/share/fonts/truetype/noto/NotoSansOldSouthArabian-Regular.ttf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  Aborting: file:/usr/share/fonts/truetype/noto/NotoSansOgham-Regular.ttf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  Aborting: file:/usr/share/fonts/truetype/noto/NotoSansOlChiki-Regular.ttf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  Aborting: file:/usr/share/fonts/truetype/noto/NotoSansCherokee-Bold.ttf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  capHeight value could not be determined. The font may not work as expected.
+WARN  xHeight value could not be determined. The font may not work as expected.
+WARN  Aborting: file:/usr/share/fonts/truetype/noto/NotoSansOldNorthArabian-Regular.ttf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  Aborting: file:/usr/share/fonts/truetype/noto/NotoSansCherokee-Regular.ttf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  Aborting: file:/usr/share/fonts/truetype/noto/NotoSansKayahLi-Regular.ttf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  Aborting: file:/usr/share/fonts/truetype/noto/NotoSansArmenian-Regular.ttf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  Aborting: file:/usr/share/fonts/truetype/noto/NotoSansArmenian-Bold.ttf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  Aborting: file:/usr/share/fonts/truetype/noto/NotoSansShavian-Regular.ttf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  Aborting: file:/usr/share/fonts/truetype/noto/NotoSerifArmenian-Bold.ttf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  Aborting: file:/usr/share/fonts/truetype/noto/NotoSerifHebrew-Regular.ttf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  Aborting: file:/usr/share/fonts/truetype/noto/NotoSansOldTurkic-Regular.ttf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  Aborting: file:/usr/share/fonts/truetype/noto/NotoSansLisu-Regular.ttf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  Aborting: file:/usr/share/fonts/truetype/noto/NotoSerifGeorgian-Bold.ttf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  Aborting: file:/usr/share/fonts/truetype/noto/NotoSansHatran-Regular.ttf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  Aborting: file:/usr/share/fonts/truetype/noto/NotoSansLycian-Regular.ttf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  Aborting: file:/usr/share/fonts/truetype/noto/NotoSansImperialAramaic-Regular.ttf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  Aborting: file:/usr/share/fonts/truetype/noto/NotoSansGeorgian-Regular.ttf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  Aborting: file:/usr/share/fonts/truetype/noto/NotoSansOldPersian-Regular.ttf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  Aborting: file:/usr/share/fonts/truetype/noto/NotoSansSymbols2-Regular.ttf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  Aborting: file:/usr/share/fonts/truetype/noto/NotoSerifArmenian-Regular.ttf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  Aborting: file:/usr/share/fonts/truetype/noto/NotoSansGeorgian-Bold.ttf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  Aborting: file:/usr/share/fonts/truetype/noto/NotoSerifThai-Regular.ttf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  Aborting: file:/usr/share/fonts/truetype/noto/NotoSansHebrew-Regular.ttf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  Aborting: file:/usr/share/fonts/truetype/noto/NotoSansGothic-Regular.ttf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  Aborting: file:/usr/share/fonts/truetype/noto/NotoSerifHebrew-Bold.ttf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  Aborting: file:/usr/share/fonts/truetype/noto/NotoSansVai-Regular.ttf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  Aborting: file:/usr/share/fonts/truetype/noto/NotoSansLinearB-Regular.ttf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  Aborting: file:/usr/share/fonts/truetype/noto/NotoSansPhoenician-Regular.ttf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  Aborting: file:/usr/share/fonts/truetype/noto/NotoSansMandaic-Regular.ttf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  Aborting: file:/usr/share/fonts/truetype/noto/NotoSansCuneiform-Regular.ttf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  Aborting: file:/usr/share/fonts/truetype/noto/NotoSansHebrew-Bold.ttf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+ERROR Dirtab loca not found.
+WARN  Aborting: file:/usr/share/fonts/truetype/noto/NotoColorEmoji.ttf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  Aborting: file:/usr/share/fonts/truetype/noto/NotoSansUgaritic-Regular.ttf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  Aborting: file:/usr/share/fonts/truetype/noto/NotoSerifTibetan-Regular.ttf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  Aborting: file:/usr/share/fonts/truetype/noto/NotoSansThai-Bold.ttf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  Aborting: file:/usr/share/fonts/truetype/noto/NotoSansOsmanya-Regular.ttf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  Aborting: file:/usr/share/fonts/truetype/noto/NotoSansMultani-Regular.ttf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  capHeight value could not be determined. The font may not work as expected.
+WARN  xHeight value could not be determined. The font may not work as expected.
+WARN  capHeight value could not be determined. The font may not work as expected.
+WARN  xHeight value could not be determined. The font may not work as expected.
+WARN  Aborting: file:/usr/share/fonts/truetype/noto/NotoSerifThai-Bold.ttf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  Aborting: file:/usr/share/fonts/truetype/noto/NotoSansEgyptianHieroglyphs-Regular.ttf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  Aborting: file:/usr/share/fonts/truetype/noto/NotoSansAnatolianHieroglyphs-Regular.ttf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  Aborting: file:/usr/share/fonts/truetype/noto/NotoSansRunic-Regular.ttf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  Aborting: file:/usr/share/fonts/truetype/noto/NotoSansNKo-Regular.ttf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  Aborting: file:/usr/share/fonts/truetype/noto/NotoSansThaiUI-Regular.ttf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  Aborting: file:/usr/share/fonts/truetype/noto/NotoSerifGeorgian-Regular.ttf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  capHeight value could not be determined. The font may not work as expected.
+WARN  xHeight value could not be determined. The font may not work as expected.
+WARN  capHeight value could not be determined. The font may not work as expected.
+WARN  xHeight value could not be determined. The font may not work as expected.
+WARN  capHeight value could not be determined. The font may not work as expected.
+WARN  xHeight value could not be determined. The font may not work as expected.
+WARN  capHeight value could not be determined. The font may not work as expected.
+WARN  xHeight value could not be determined. The font may not work as expected.
+WARN  capHeight value could not be determined. The font may not work as expected.
+WARN  xHeight value could not be determined. The font may not work as expected.
+WARN  capHeight value could not be determined. The font may not work as expected.
+WARN  xHeight value could not be determined. The font may not work as expected.
+WARN  xHeight value could not be determined. The font may not work as expected.
+WARN  xHeight value could not be determined. The font may not work as expected.
+WARN  capHeight value could not be determined. The font may not work as expected.
+WARN  capHeight value could not be determined. The font may not work as expected.
+WARN  xHeight value could not be determined. The font may not work as expected.
+WARN  capHeight value could not be determined. The font may not work as expected.
+WARN  xHeight value could not be determined. The font may not work as expected.
+WARN  capHeight value could not be determined. The font may not work as expected.
+WARN  xHeight value could not be determined. The font may not work as expected.
+WARN  Aborting: file:/usr/share/fonts/truetype/ubuntu/UbuntuMono-RI.ttf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  Aborting: file:/usr/share/fonts/truetype/ubuntu/UbuntuMono-R.ttf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  Aborting: file:/usr/share/fonts/truetype/ubuntu/UbuntuMono-B.ttf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  Aborting: file:/usr/share/fonts/truetype/ubuntu/UbuntuMono-BI.ttf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  capHeight value could not be determined. The font may not work as expected.
+WARN  xHeight value could not be determined. The font may not work as expected.
+WARN  capHeight value could not be determined. The font may not work as expected.
+WARN  xHeight value could not be determined. The font may not work as expected.
+WARN  capHeight value could not be determined. The font may not work as expected.
+WARN  xHeight value could not be determined. The font may not work as expected.
+WARN  capHeight value could not be determined. The font may not work as expected.
+WARN  xHeight value could not be determined. The font may not work as expected.
+WARN  capHeight value could not be determined. The font may not work as expected.
+WARN  xHeight value could not be determined. The font may not work as expected.
+WARN  capHeight value could not be determined. The font may not work as expected.
+WARN  xHeight value could not be determined. The font may not work as expected.
+WARN  capHeight value could not be determined. The font may not work as expected.
+WARN  xHeight value could not be determined. The font may not work as expected.
+WARN  capHeight value could not be determined. The font may not work as expected.
+WARN  xHeight value could not be determined. The font may not work as expected.
+WARN  capHeight value could not be determined. The font may not work as expected.
+WARN  xHeight value could not be determined. The font may not work as expected.
+WARN  capHeight value could not be determined. The font may not work as expected.
+WARN  xHeight value could not be determined. The font may not work as expected.
+WARN  capHeight value could not be determined. The font may not work as expected.
+WARN  xHeight value could not be determined. The font may not work as expected.
+WARN  capHeight value could not be determined. The font may not work as expected.
+WARN  xHeight value could not be determined. The font may not work as expected.
+WARN  capHeight value could not be determined. The font may not work as expected.
+WARN  xHeight value could not be determined. The font may not work as expected.
+WARN  capHeight value could not be determined. The font may not work as expected.
+WARN  xHeight value could not be determined. The font may not work as expected.
+WARN  capHeight value could not be determined. The font may not work as expected.
+WARN  xHeight value could not be determined. The font may not work as expected.
+WARN  Overwriting existing physicalFontMap entry: liberation serif bold italic
+WARN  Overwriting existing physicalFontMap entry: liberation mono
+WARN  Overwriting existing physicalFontMap entry: liberation mono bold
+WARN  Overwriting existing physicalFontMap entry: liberation serif
+WARN  Overwriting existing physicalFontMap entry: liberation sans bold
+WARN  Overwriting existing physicalFontMap entry: liberation serif italic
+WARN  Overwriting existing physicalFontMap entry: liberation sans
+WARN  Overwriting existing physicalFontMap entry: liberation sans bold italic
+WARN  Overwriting existing physicalFontMap entry: liberation mono italic
+WARN  Overwriting existing physicalFontMap entry: liberation serif bold
+WARN  Overwriting existing physicalFontMap entry: liberation mono bold italic
+WARN  Overwriting existing physicalFontMap entry: liberation sans italic
+WARN  Overwriting existing physicalFontMap entry: roboto condensed
+WARN  Overwriting existing physicalFontMap entry: roboto condensed italic
+WARN  Overwriting existing physicalFontMap entry: roboto condensed bold
+WARN  Overwriting existing physicalFontMap entry: roboto condensed light
+WARN  Overwriting existing physicalFontMap entry: roboto light italic
+WARN  Overwriting existing physicalFontMap entry: roboto black
+WARN  Overwriting existing physicalFontMap entry: roboto light
+WARN  Overwriting existing physicalFontMap entry: roboto thin
+WARN  Overwriting existing physicalFontMap entry: roboto bold italic
+WARN  Overwriting existing physicalFontMap entry: roboto italic
+WARN  Overwriting existing physicalFontMap entry: roboto thin italic
+WARN  Overwriting existing physicalFontMap entry: roboto black italic
+WARN  Overwriting existing physicalFontMap entry: roboto
+WARN  Overwriting existing physicalFontMap entry: roboto medium
+WARN  Overwriting existing physicalFontMap entry: roboto medium italic
+WARN  Overwriting existing physicalFontMap entry: roboto bold
+WARN  Overwriting existing physicalFontMap entry: roboto condensed medium italic
+WARN  Overwriting existing physicalFontMap entry: roboto condensed medium
+WARN  Overwriting existing physicalFontMap entry: roboto condensed light italic
+WARN  Overwriting existing physicalFontMap entry: roboto condensed bold italic
+WARN  Overwriting existing physicalFontMap entry: takaopgothic
+INFO  This is a TrueType collection file with 4 fonts
+INFO  Containing the following fonts: 
+INFO  Noto Serif CJK JP Bold <-- selected
+INFO  Noto Serif CJK KR Bold
+INFO  Noto Serif CJK SC Bold
+INFO  Noto Serif CJK TC Bold
+INFO  This is a TrueType collection file with 4 fonts
+INFO  Containing the following fonts: 
+INFO  Noto Serif CJK JP Bold
+INFO  Noto Serif CJK KR Bold <-- selected
+INFO  Noto Serif CJK SC Bold
+INFO  Noto Serif CJK TC Bold
+INFO  This is a TrueType collection file with 4 fonts
+INFO  Containing the following fonts: 
+INFO  Noto Serif CJK JP Bold
+INFO  Noto Serif CJK KR Bold
+INFO  Noto Serif CJK SC Bold <-- selected
+INFO  Noto Serif CJK TC Bold
+INFO  This is a TrueType collection file with 4 fonts
+INFO  Containing the following fonts: 
+INFO  Noto Serif CJK JP Bold
+INFO  Noto Serif CJK KR Bold
+INFO  Noto Serif CJK SC Bold
+INFO  Noto Serif CJK TC Bold <-- selected
+INFO  This is a TrueType collection file with 10 fonts
+INFO  Containing the following fonts: 
+INFO  Noto Sans CJK JP <-- selected
+INFO  Noto Sans CJK KR
+INFO  Noto Sans CJK SC
+INFO  Noto Sans CJK TC
+INFO  Noto Sans CJK HK
+INFO  Noto Sans Mono CJK JP
+INFO  Noto Sans Mono CJK KR
+INFO  Noto Sans Mono CJK SC
+INFO  Noto Sans Mono CJK TC
+INFO  Noto Sans Mono CJK HK
+INFO  This is a TrueType collection file with 10 fonts
+INFO  Containing the following fonts: 
+INFO  Noto Sans CJK JP
+INFO  Noto Sans CJK KR <-- selected
+INFO  Noto Sans CJK SC
+INFO  Noto Sans CJK TC
+INFO  Noto Sans CJK HK
+INFO  Noto Sans Mono CJK JP
+INFO  Noto Sans Mono CJK KR
+INFO  Noto Sans Mono CJK SC
+INFO  Noto Sans Mono CJK TC
+INFO  Noto Sans Mono CJK HK
+INFO  This is a TrueType collection file with 10 fonts
+INFO  Containing the following fonts: 
+INFO  Noto Sans CJK JP
+INFO  Noto Sans CJK KR
+INFO  Noto Sans CJK SC <-- selected
+INFO  Noto Sans CJK TC
+INFO  Noto Sans CJK HK
+INFO  Noto Sans Mono CJK JP
+INFO  Noto Sans Mono CJK KR
+INFO  Noto Sans Mono CJK SC
+INFO  Noto Sans Mono CJK TC
+INFO  Noto Sans Mono CJK HK
+INFO  This is a TrueType collection file with 10 fonts
+INFO  Containing the following fonts: 
+INFO  Noto Sans CJK JP
+INFO  Noto Sans CJK KR
+INFO  Noto Sans CJK SC
+INFO  Noto Sans CJK TC <-- selected
+INFO  Noto Sans CJK HK
+INFO  Noto Sans Mono CJK JP
+INFO  Noto Sans Mono CJK KR
+INFO  Noto Sans Mono CJK SC
+INFO  Noto Sans Mono CJK TC
+INFO  Noto Sans Mono CJK HK
+INFO  This is a TrueType collection file with 10 fonts
+INFO  Containing the following fonts: 
+INFO  Noto Sans CJK JP
+INFO  Noto Sans CJK KR
+INFO  Noto Sans CJK SC
+INFO  Noto Sans CJK TC
+INFO  Noto Sans CJK HK <-- selected
+INFO  Noto Sans Mono CJK JP
+INFO  Noto Sans Mono CJK KR
+INFO  Noto Sans Mono CJK SC
+INFO  Noto Sans Mono CJK TC
+INFO  Noto Sans Mono CJK HK
+INFO  This is a TrueType collection file with 10 fonts
+INFO  Containing the following fonts: 
+INFO  Noto Sans CJK JP
+INFO  Noto Sans CJK KR
+INFO  Noto Sans CJK SC
+INFO  Noto Sans CJK TC
+INFO  Noto Sans CJK HK
+INFO  Noto Sans Mono CJK JP <-- selected
+INFO  Noto Sans Mono CJK KR
+INFO  Noto Sans Mono CJK SC
+INFO  Noto Sans Mono CJK TC
+INFO  Noto Sans Mono CJK HK
+INFO  This is a TrueType collection file with 10 fonts
+INFO  Containing the following fonts: 
+INFO  Noto Sans CJK JP
+INFO  Noto Sans CJK KR
+INFO  Noto Sans CJK SC
+INFO  Noto Sans CJK TC
+INFO  Noto Sans CJK HK
+INFO  Noto Sans Mono CJK JP
+INFO  Noto Sans Mono CJK KR <-- selected
+INFO  Noto Sans Mono CJK SC
+INFO  Noto Sans Mono CJK TC
+INFO  Noto Sans Mono CJK HK
+INFO  This is a TrueType collection file with 10 fonts
+INFO  Containing the following fonts: 
+INFO  Noto Sans CJK JP
+INFO  Noto Sans CJK KR
+INFO  Noto Sans CJK SC
+INFO  Noto Sans CJK TC
+INFO  Noto Sans CJK HK
+INFO  Noto Sans Mono CJK JP
+INFO  Noto Sans Mono CJK KR
+INFO  Noto Sans Mono CJK SC <-- selected
+INFO  Noto Sans Mono CJK TC
+INFO  Noto Sans Mono CJK HK
+INFO  This is a TrueType collection file with 10 fonts
+INFO  Containing the following fonts: 
+INFO  Noto Sans CJK JP
+INFO  Noto Sans CJK KR
+INFO  Noto Sans CJK SC
+INFO  Noto Sans CJK TC
+INFO  Noto Sans CJK HK
+INFO  Noto Sans Mono CJK JP
+INFO  Noto Sans Mono CJK KR
+INFO  Noto Sans Mono CJK SC
+INFO  Noto Sans Mono CJK TC <-- selected
+INFO  Noto Sans Mono CJK HK
+INFO  This is a TrueType collection file with 10 fonts
+INFO  Containing the following fonts: 
+INFO  Noto Sans CJK JP
+INFO  Noto Sans CJK KR
+INFO  Noto Sans CJK SC
+INFO  Noto Sans CJK TC
+INFO  Noto Sans CJK HK
+INFO  Noto Sans Mono CJK JP
+INFO  Noto Sans Mono CJK KR
+INFO  Noto Sans Mono CJK SC
+INFO  Noto Sans Mono CJK TC
+INFO  Noto Sans Mono CJK HK <-- selected
+INFO  This is a TrueType collection file with 4 fonts
+INFO  Containing the following fonts: 
+INFO  Noto Serif CJK JP <-- selected
+INFO  Noto Serif CJK KR
+INFO  Noto Serif CJK SC
+INFO  Noto Serif CJK TC
+INFO  This is a TrueType collection file with 4 fonts
+INFO  Containing the following fonts: 
+INFO  Noto Serif CJK JP
+INFO  Noto Serif CJK KR <-- selected
+INFO  Noto Serif CJK SC
+INFO  Noto Serif CJK TC
+INFO  This is a TrueType collection file with 4 fonts
+INFO  Containing the following fonts: 
+INFO  Noto Serif CJK JP
+INFO  Noto Serif CJK KR
+INFO  Noto Serif CJK SC <-- selected
+INFO  Noto Serif CJK TC
+INFO  This is a TrueType collection file with 4 fonts
+INFO  Containing the following fonts: 
+INFO  Noto Serif CJK JP
+INFO  Noto Serif CJK KR
+INFO  Noto Serif CJK SC
+INFO  Noto Serif CJK TC <-- selected
+INFO  This is a TrueType collection file with 10 fonts
+INFO  Containing the following fonts: 
+INFO  Noto Sans CJK JP Bold <-- selected
+INFO  Noto Sans CJK KR Bold
+INFO  Noto Sans CJK SC Bold
+INFO  Noto Sans CJK TC Bold
+INFO  Noto Sans CJK HK Bold
+INFO  Noto Sans Mono CJK JP Bold
+INFO  Noto Sans Mono CJK KR Bold
+INFO  Noto Sans Mono CJK SC Bold
+INFO  Noto Sans Mono CJK TC Bold
+INFO  Noto Sans Mono CJK HK Bold
+INFO  This is a TrueType collection file with 10 fonts
+INFO  Containing the following fonts: 
+INFO  Noto Sans CJK JP Bold
+INFO  Noto Sans CJK KR Bold <-- selected
+INFO  Noto Sans CJK SC Bold
+INFO  Noto Sans CJK TC Bold
+INFO  Noto Sans CJK HK Bold
+INFO  Noto Sans Mono CJK JP Bold
+INFO  Noto Sans Mono CJK KR Bold
+INFO  Noto Sans Mono CJK SC Bold
+INFO  Noto Sans Mono CJK TC Bold
+INFO  Noto Sans Mono CJK HK Bold
+INFO  This is a TrueType collection file with 10 fonts
+INFO  Containing the following fonts: 
+INFO  Noto Sans CJK JP Bold
+INFO  Noto Sans CJK KR Bold
+INFO  Noto Sans CJK SC Bold <-- selected
+INFO  Noto Sans CJK TC Bold
+INFO  Noto Sans CJK HK Bold
+INFO  Noto Sans Mono CJK JP Bold
+INFO  Noto Sans Mono CJK KR Bold
+INFO  Noto Sans Mono CJK SC Bold
+INFO  Noto Sans Mono CJK TC Bold
+INFO  Noto Sans Mono CJK HK Bold
+INFO  This is a TrueType collection file with 10 fonts
+INFO  Containing the following fonts: 
+INFO  Noto Sans CJK JP Bold
+INFO  Noto Sans CJK KR Bold
+INFO  Noto Sans CJK SC Bold
+INFO  Noto Sans CJK TC Bold <-- selected
+INFO  Noto Sans CJK HK Bold
+INFO  Noto Sans Mono CJK JP Bold
+INFO  Noto Sans Mono CJK KR Bold
+INFO  Noto Sans Mono CJK SC Bold
+INFO  Noto Sans Mono CJK TC Bold
+INFO  Noto Sans Mono CJK HK Bold
+INFO  This is a TrueType collection file with 10 fonts
+INFO  Containing the following fonts: 
+INFO  Noto Sans CJK JP Bold
+INFO  Noto Sans CJK KR Bold
+INFO  Noto Sans CJK SC Bold
+INFO  Noto Sans CJK TC Bold
+INFO  Noto Sans CJK HK Bold <-- selected
+INFO  Noto Sans Mono CJK JP Bold
+INFO  Noto Sans Mono CJK KR Bold
+INFO  Noto Sans Mono CJK SC Bold
+INFO  Noto Sans Mono CJK TC Bold
+INFO  Noto Sans Mono CJK HK Bold
+INFO  This is a TrueType collection file with 10 fonts
+INFO  Containing the following fonts: 
+INFO  Noto Sans CJK JP Bold
+INFO  Noto Sans CJK KR Bold
+INFO  Noto Sans CJK SC Bold
+INFO  Noto Sans CJK TC Bold
+INFO  Noto Sans CJK HK Bold
+INFO  Noto Sans Mono CJK JP Bold <-- selected
+INFO  Noto Sans Mono CJK KR Bold
+INFO  Noto Sans Mono CJK SC Bold
+INFO  Noto Sans Mono CJK TC Bold
+INFO  Noto Sans Mono CJK HK Bold
+INFO  This is a TrueType collection file with 10 fonts
+INFO  Containing the following fonts: 
+INFO  Noto Sans CJK JP Bold
+INFO  Noto Sans CJK KR Bold
+INFO  Noto Sans CJK SC Bold
+INFO  Noto Sans CJK TC Bold
+INFO  Noto Sans CJK HK Bold
+INFO  Noto Sans Mono CJK JP Bold
+INFO  Noto Sans Mono CJK KR Bold <-- selected
+INFO  Noto Sans Mono CJK SC Bold
+INFO  Noto Sans Mono CJK TC Bold
+INFO  Noto Sans Mono CJK HK Bold
+INFO  This is a TrueType collection file with 10 fonts
+INFO  Containing the following fonts: 
+INFO  Noto Sans CJK JP Bold
+INFO  Noto Sans CJK KR Bold
+INFO  Noto Sans CJK SC Bold
+INFO  Noto Sans CJK TC Bold
+INFO  Noto Sans CJK HK Bold
+INFO  Noto Sans Mono CJK JP Bold
+INFO  Noto Sans Mono CJK KR Bold
+INFO  Noto Sans Mono CJK SC Bold <-- selected
+INFO  Noto Sans Mono CJK TC Bold
+INFO  Noto Sans Mono CJK HK Bold
+INFO  This is a TrueType collection file with 10 fonts
+INFO  Containing the following fonts: 
+INFO  Noto Sans CJK JP Bold
+INFO  Noto Sans CJK KR Bold
+INFO  Noto Sans CJK SC Bold
+INFO  Noto Sans CJK TC Bold
+INFO  Noto Sans CJK HK Bold
+INFO  Noto Sans Mono CJK JP Bold
+INFO  Noto Sans Mono CJK KR Bold
+INFO  Noto Sans Mono CJK SC Bold
+INFO  Noto Sans Mono CJK TC Bold <-- selected
+INFO  Noto Sans Mono CJK HK Bold
+INFO  This is a TrueType collection file with 10 fonts
+INFO  Containing the following fonts: 
+INFO  Noto Sans CJK JP Bold
+INFO  Noto Sans CJK KR Bold
+INFO  Noto Sans CJK SC Bold
+INFO  Noto Sans CJK TC Bold
+INFO  Noto Sans CJK HK Bold
+INFO  Noto Sans Mono CJK JP Bold
+INFO  Noto Sans Mono CJK KR Bold
+INFO  Noto Sans Mono CJK SC Bold
+INFO  Noto Sans Mono CJK TC Bold
+INFO  Noto Sans Mono CJK HK Bold <-- selected
+WARN  Aborting: file:/usr/share/fonts/opentype/malayalam/Manjari-Regular.otf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  Aborting: file:/usr/share/fonts/opentype/malayalam/Chilanka-Regular.otf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  Aborting: file:/usr/share/fonts/opentype/malayalam/Manjari-Bold.otf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  Aborting: file:/usr/share/fonts/opentype/malayalam/Manjari-Thin.otf (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  Aborting: file:/usr/share/fonts/X11/Type1/c0419bt_.pfb (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  Aborting: file:/usr/share/fonts/X11/Type1/c0633bt_.pfb (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  Aborting: file:/usr/share/fonts/X11/Type1/c0582bt_.pfb (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  Aborting: file:/usr/share/fonts/X11/Type1/c0611bt_.pfb (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  Aborting: file:/usr/share/fonts/X11/Type1/c0649bt_.pfb (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  Aborting: file:/usr/share/fonts/X11/Type1/c0632bt_.pfb (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  Aborting: file:/usr/share/fonts/X11/Type1/c0583bt_.pfb (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  Aborting: file:/usr/share/fonts/X11/Type1/c0648bt_.pfb (can't get EmbedFontInfo[] .. try deleting fop-fonts.cache?)
+WARN  WARNING! SubstituterWindowsPlatformImpl works best on Windows.  To get good results on other platforms, you'll probably  need to have installed Windows fonts.
+INFO  rPrDefault/rFonts referenced Liberation Serif
+INFO  Writing temp embedded fonts 1580922824563
+WARN  - - No physical font for: Cambria
+INFO  rPrDefault/rFonts referenced Liberation Serif
+INFO  Writing temp embedded fonts 1580922824914
+INFO  starting
+INFO  No need to move sectPr 
+INFO  rPrDefault/rFonts referenced Liberation Serif
+INFO  /pkg:package
+INFO  rPrDefault/rFonts referenced Liberation Serif
+INFO  Writing temp embedded fonts 1580922829791
+INFO  starting
+INFO  No need to move sectPr 
+INFO  rPrDefault/rFonts referenced Liberation Serif
+INFO  /pkg:package
+INFO  rPrDefault/rFonts referenced Liberation Serif
+WARN  No entry in MicrosoftFontsRegistry for: Liberation Serif
+WARN  No entry in MicrosoftFontsRegistry for: Liberation Serif
+WARN  Font "Liberation Serif,normal,400" not found. Substituting with "any,normal,400".
+WARN  The contents of fo:region-body on page 4 exceed its viewport by 44100 millipoints. (See position 1:412)
+WARN  The contents of fo:region-body on page 3 exceed its viewport by 44100 millipoints. (See position 1:412)
+WARN  The contents of fo:region-body on page 2 exceed its viewport by 44100 millipoints. (See position 1:412)
+WARN  The contents of fo:region-body on page 1 exceed its viewport by 44100 millipoints. (See position 1:412)
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  XSLT_
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  .. XSLT_ done
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  XSLT_
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  .. XSLT_ done
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+<fo:inline xmlns:fo="http://www.w3.org/1999/XSL/Format" font-family="Liberation Serif">•</fo:inline>
+WARN  Font 'Cambria' is not mapped to a physical font. 
+<fo:inline xmlns:fo="http://www.w3.org/1999/XSL/Format" font-family="Liberation Serif">•</fo:inline>
+WARN  Font 'Cambria' is not mapped to a physical font. 
+<fo:inline xmlns:fo="http://www.w3.org/1999/XSL/Format" font-family="Liberation Serif">•</fo:inline>
+WARN  Font 'Cambria' is not mapped to a physical font. 
+<fo:inline xmlns:fo="http://www.w3.org/1999/XSL/Format" font-family="Liberation Serif">•</fo:inline>
+WARN  Font 'Cambria' is not mapped to a physical font. 
+<fo:inline xmlns:fo="http://www.w3.org/1999/XSL/Format" font-family="Liberation Serif">•</fo:inline>
+WARN  XSLT_
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  .. XSLT_ done
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  XSLT_
+WARN  XSLT_
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  .. XSLT_ done
+WARN  .. XSLT_ done
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  XSLT_
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  .. XSLT_ done
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+WARN  Font 'Cambria' is not mapped to a physical font. 
+INFO  rPrDefault/rFonts referenced Liberation Serif
+WARN  Document font Cambria is not mapped to a physical font!
+WARN  No entry in MicrosoftFontsRegistry for: Liberation Serif
+WARN  No entry in MicrosoftFontsRegistry for: Liberation Serif
+ERROR Exception exporting package
+org.docx4j.openpackaging.exceptions.Docx4JException: Exception executing transformer: org.apache.fop.fo.ValidationException: Property ID "__DdeLink__188_797377839" (found on "fo:inline") previously used; ID values must be unique within a document! (See position 9:42569)
+    at org.docx4j.convert.out.fo.renderers.FORendererApacheFOP.render(FORendererApacheFOP.java:215)
+    at org.docx4j.convert.out.fo.renderers.FORendererApacheFOP.render(FORendererApacheFOP.java:158)
+    at org.docx4j.convert.out.fo.AbstractFOExporter.postprocess(AbstractFOExporter.java:139)
+    at org.docx4j.convert.out.fo.AbstractFOExporter.postprocess(AbstractFOExporter.java:47)
+    at org.docx4j.convert.out.common.AbstractExporter.export(AbstractExporter.java:82)
+    at org.docx4j.Docx4J.toFO(Docx4J.java:466)
+    at org.docx4j.Docx4J.toPDF(Docx4J.java:480)
+    at org.docx4j.convert.out.pdf.viaXSLFO.Conversion.output(Conversion.java:70)
+    at ld.fns.pdf.convertold.LDProcessDocPackage.LDConvertDocument.ConvertToPdf(LDConvertDocument.java:301)
+    at ld.fns.pdf.convert.PdfConvertServlet.service(PdfConvertServlet.java:54)
+    at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+    at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+    at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+    at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+    at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+    at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+    at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+    at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+    at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+    at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+    at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+    at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:678)
+    at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+    at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+    at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:609)
+    at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+    at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:810)
+    at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1623)
+    at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+    at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+    at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.xml.transform.TransformerException: org.apache.fop.fo.ValidationException: Property ID "__DdeLink__188_797377839" (found on "fo:inline") previously used; ID values must be unique within a document! (See position 9:42569)
+    at org.apache.xalan.transformer.TransformerIdentityImpl.transform(TransformerIdentityImpl.java:501)
+    at org.docx4j.convert.out.fo.renderers.FORendererApacheFOP.render(FORendererApacheFOP.java:211)
+    ... 32 more
+Caused by: org.apache.fop.fo.ValidationException: Property ID "__DdeLink__188_797377839" (found on "fo:inline") previously used; ID values must be unique within a document! (See position 9:42569)
+    at org.apache.fop.events.ValidationExceptionFactory.createException(ValidationExceptionFactory.java:38)
+    at org.apache.fop.events.EventExceptionManager.throwException(EventExceptionManager.java:58)
+    at org.apache.fop.events.DefaultEventBroadcaster$1.invoke(DefaultEventBroadcaster.java:175)
+    at com.sun.proxy.$Proxy39.idNotUnique(Unknown Source)
+    at org.apache.fop.fo.FObj.checkId(FObj.java:205)
+    at org.apache.fop.fo.FObj.startOfNode(FObj.java:186)
+    at org.apache.fop.fo.flow.Inline.startOfNode(Inline.java:77)
+    at org.apache.fop.fo.FOTreeBuilder$MainFOHandler.startElement(FOTreeBuilder.java:337)
+    at org.apache.fop.fo.FOTreeBuilder.startElement(FOTreeBuilder.java:179)
+    at org.apache.xalan.transformer.TransformerIdentityImpl.startElement(TransformerIdentityImpl.java:1072)
+    at org.apache.xerces.parsers.AbstractSAXParser.startElement(Unknown Source)
+    at org.apache.xerces.parsers.AbstractXMLDocumentParser.emptyElement(Unknown Source)
+    at org.apache.xerces.impl.XMLNSDocumentScannerImpl.scanStartElement(Unknown Source)
+    at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)
+    at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+    at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+    at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+    at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+    at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+    at org.apache.xalan.transformer.TransformerIdentityImpl.transform(TransformerIdentityImpl.java:484)
+    ... 33 more
+org.docx4j.openpackaging.exceptions.Docx4JException: Exception exporting package
+    at org.docx4j.convert.out.common.AbstractExporter.export(AbstractExporter.java:109)
+    at org.docx4j.Docx4J.toFO(Docx4J.java:466)
+    at org.docx4j.Docx4J.toPDF(Docx4J.java:480)
+    at org.docx4j.convert.out.pdf.viaXSLFO.Conversion.output(Conversion.java:70)
+    at ld.fns.pdf.convertold.LDProcessDocPackage.LDConvertDocument.ConvertToPdf(LDConvertDocument.java:301)
+    at ld.fns.pdf.convert.PdfConvertServlet.service(PdfConvertServlet.java:54)
+    at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+    at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+    at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+    at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+    at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+    at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+    at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+    at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+    at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+    at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+    at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+    at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:678)
+    at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+    at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+    at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:609)
+    at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+    at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:810)
+    at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1623)
+    at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+    at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+    at java.lang.Thread.run(Thread.java:748)
+Caused by: org.docx4j.openpackaging.exceptions.Docx4JException: Exception executing transformer: org.apache.fop.fo.ValidationException: Property ID "__DdeLink__188_797377839" (found on "fo:inline") previously used; ID values must be unique within a document! (See position 9:42569)
+    at org.docx4j.convert.out.fo.renderers.FORendererApacheFOP.render(FORendererApacheFOP.java:215)
+    at org.docx4j.convert.out.fo.renderers.FORendererApacheFOP.render(FORendererApacheFOP.java:158)
+    at org.docx4j.convert.out.fo.AbstractFOExporter.postprocess(AbstractFOExporter.java:139)
+    at org.docx4j.convert.out.fo.AbstractFOExporter.postprocess(AbstractFOExporter.java:47)
+    at org.docx4j.convert.out.common.AbstractExporter.export(AbstractExporter.java:82)
+    ... 28 more
+Caused by: javax.xml.transform.TransformerException: org.apache.fop.fo.ValidationException: Property ID "__DdeLink__188_797377839" (found on "fo:inline") previously used; ID values must be unique within a document! (See position 9:42569)
+    at org.apache.xalan.transformer.TransformerIdentityImpl.transform(TransformerIdentityImpl.java:501)
+    at org.docx4j.convert.out.fo.renderers.FORendererApacheFOP.render(FORendererApacheFOP.java:211)
+    ... 32 more
+Caused by: org.apache.fop.fo.ValidationException: Property ID "__DdeLink__188_797377839" (found on "fo:inline") previously used; ID values must be unique within a document! (See position 9:42569)
+    at org.apache.fop.events.ValidationExceptionFactory.createException(ValidationExceptionFactory.java:38)
+    at org.apache.fop.events.EventExceptionManager.throwException(EventExceptionManager.java:58)
+    at org.apache.fop.events.DefaultEventBroadcaster$1.invoke(DefaultEventBroadcaster.java:175)
+    at com.sun.proxy.$Proxy39.idNotUnique(Unknown Source)
+    at org.apache.fop.fo.FObj.checkId(FObj.java:205)
+    at org.apache.fop.fo.FObj.startOfNode(FObj.java:186)
+    at org.apache.fop.fo.flow.Inline.startOfNode(Inline.java:77)
+    at org.apache.fop.fo.FOTreeBuilder$MainFOHandler.startElement(FOTreeBuilder.java:337)
+    at org.apache.fop.fo.FOTreeBuilder.startElement(FOTreeBuilder.java:179)
+    at org.apache.xalan.transformer.TransformerIdentityImpl.startElement(TransformerIdentityImpl.java:1072)
+    at org.apache.xerces.parsers.AbstractSAXParser.startElement(Unknown Source)
+    at org.apache.xerces.parsers.AbstractXMLDocumentParser.emptyElement(Unknown Source)
+    at org.apache.xerces.impl.XMLNSDocumentScannerImpl.scanStartElement(Unknown Source)
+    at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)
+    at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+    at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+    at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+    at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+    at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+    at org.apache.xalan.transformer.TransformerIdentityImpl.transform(TransformerIdentityImpl.java:484)
+    ... 33 more
+/home/pasha/bin/apache-tomcat-8.5.50/bin/catalina.sh stop
+05-Feb-2020 21:15:44.369 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Feb-2020 21:15:44.369 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Feb-2020 21:15:44.378 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2020 21:15:44.384 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Feb-2020 21:15:44.428 SEVERE [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [pdftool] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@1efe367f]) and a value of type [java.util.ArrayList] (value [[[FORMAT]
+    .indexcode       = 0x0005
+    .isUnicode       = false
+    .formatstring    = "$"#,##0_);("$"#,##0)
+[/FORMAT]
+, [FORMAT]
+    .indexcode       = 0x0006
+    .isUnicode       = false
+    .formatstring    = "$"#,##0_);[Red]("$"#,##0)
+[/FORMAT]
+, [FORMAT]
+    .indexcode       = 0x0007
+    .isUnicode       = false
+    .formatstring    = "$"#,##0.00_);("$"#,##0.00)
+[/FORMAT]
+, [FORMAT]
+    .indexcode       = 0x0008
+    .isUnicode       = false
+    .formatstring    = "$"#,##0.00_);[Red]("$"#,##0.00)
+[/FORMAT]
+, [FORMAT]
+    .indexcode       = 0x002A
+    .isUnicode       = false
+    .formatstring    = _(* #,##0_);_(* (#,##0);_(* "-"_);_(@_)
+[/FORMAT]
+, [FORMAT]
+    .indexcode       = 0x0029
+    .isUnicode       = false
+    .formatstring    = _("$"* #,##0_);_("$"* (#,##0);_("$"* "-"_);_(@_)
+[/FORMAT]
+, [FORMAT]
+    .indexcode       = 0x002C
+    .isUnicode       = false
+    .formatstring    = _("$"* #,##0.00_);_("$"* (#,##0.00);_("$"* "-"??_);_(@_)
+[/FORMAT]
+, [FORMAT]
+    .indexcode       = 0x002B
+    .isUnicode       = false
+    .formatstring    = _(* #,##0.00_);_(* (#,##0.00);_(* "-"??_);_(@_)
+[/FORMAT]
+]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+05-Feb-2020 21:15:44.432 SEVERE [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [pdftool] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@5fa100dc]) and a value of type [org.apache.xerces.parsers.SAXParser] (value [org.apache.xerces.parsers.SAXParser@2e0b7e8d]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+05-Feb-2020 21:15:44.432 SEVERE [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [pdftool] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@5fa100dc]) and a value of type [org.apache.xerces.parsers.SAXParser] (value [org.apache.xerces.parsers.SAXParser@420a4a33]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+05-Feb-2020 21:15:44.448 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Feb-2020 21:15:44.449 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2020 21:15:44.450 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Feb-2020 21:15:44.450 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+Disconnected from server
