@@ -69,7 +69,7 @@ public class PDFCompressITextUtil {
 
                 int width = (int)(bi.getWidth() * downscaleFactor);
                 int height = (int)(bi.getHeight() * downscaleFactor);
-                BufferedImage img = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
+                BufferedImage img = new BufferedImage(width, height, BufferedImage.TYPE_USHORT_GRAY);
                 AffineTransform at = AffineTransform.getScaleInstance(downscaleFactor, downscaleFactor);
                 Graphics2D g = img.createGraphics();
                 g.drawRenderedImage(bi, at);
@@ -84,7 +84,7 @@ public class PDFCompressITextUtil {
                 stream.put(PdfName.WIDTH, new PdfNumber(width));
                 stream.put(PdfName.HEIGHT, new PdfNumber(height));
                 stream.put(PdfName.BITSPERCOMPONENT, new PdfNumber(8));
-                stream.put(PdfName.COLORSPACE, PdfName.DEVICERGB);
+                stream.put(PdfName.COLORSPACE, PdfName.DEVICEGRAY);
             }
         }
         // Save altered PDF
