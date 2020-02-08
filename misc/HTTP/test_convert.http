@@ -43,3 +43,11 @@ Document-Extension: png
 < ./test.png
 
 ###
+
+POST http://172.27.9.79:8088/pdftool/convertpdf
+Content-Type: image/png
+Document-Extension: png
+
+< ./test.png
+
+###

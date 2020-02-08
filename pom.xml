@@ -8,16 +8,16 @@
     <artifactId>pdftool</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
-    <repositories>
-        <repository>
-            <id>localrepository</id>
-            <url>file://${project.basedir}/libs</url>
-        </repository>
-        <repository>
-            <id>central</id>
-            <url>http://repo1.maven.org/maven2/</url>
-        </repository>
-    </repositories>
+<!--    <repositories>-->
+<!--        <repository>-->
+<!--            <id>localrepository</id>-->
+<!--            <url>file://${project.basedir}/libs</url>-->
+<!--        </repository>-->
+<!--        <repository>-->
+<!--            <id>central</id>-->
+<!--            <url>http://repo1.maven.org/maven2/</url>-->
+<!--        </repository>-->
+<!--    </repositories>-->
     <dependencies>
         <dependency>
             <groupId>javax.servlet</groupId>
@@ -53,21 +53,21 @@
             <artifactId>jodconverter-local</artifactId>
             <version>4.2.2</version>
         </dependency>
-        <dependency>
-            <groupId>org.aspectj</groupId>
-            <artifactId>aspectjrt</artifactId>
-            <version>1.9.2</version>
-        </dependency>
-        <dependency>
-            <groupId>org.aspectj</groupId>
-            <artifactId>aspectjtools</artifactId>
-            <version>1.9.2</version>
-        </dependency>
-        <dependency>
-            <groupId>org.aspectj</groupId>
-            <artifactId>aspectjweaver</artifactId>
-            <version>1.9.2</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.aspectj</groupId>-->
+<!--            <artifactId>aspectjrt</artifactId>-->
+<!--            <version>1.9.2</version>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>org.aspectj</groupId>-->
+<!--            <artifactId>aspectjtools</artifactId>-->
+<!--            <version>1.9.2</version>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>org.aspectj</groupId>-->
+<!--            <artifactId>aspectjweaver</artifactId>-->
+<!--            <version>1.9.2</version>-->
+<!--        </dependency>-->
     </dependencies>
 
     <build>
@@ -82,17 +82,17 @@
                 <version>3.2.0</version>
                 <configuration>
                     <warSourceDirectory>src/main/webapp</warSourceDirectory>
-                    <failOnMissingWebXml>true</failOnMissingWebXml>
-                    <webResources>
-                        <resource>
-                            <directory>${project.basedir}\libs</directory>
-                            <targetPath>WEB-INF/lib</targetPath>
-                            <filtering>false</filtering>
-                            <includes>
-                                <include>**/*.jar</include>
-                            </includes>
-                        </resource>
-                    </webResources>
+                    <failOnMissingWebXml>false</failOnMissingWebXml>
+<!--                    <webResources>-->
+<!--                        <resource>-->
+<!--                            <directory>${project.basedir}\libs</directory>-->
+<!--                            <targetPath>WEB-INF/lib</targetPath>-->
+<!--                            <filtering>false</filtering>-->
+<!--                            <includes>-->
+<!--                                <include>**/*.jar</include>-->
+<!--                            </includes>-->
+<!--                        </resource>-->
+<!--                    </webResources>-->
                 </configuration>
             </plugin>
 
