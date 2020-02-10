@@ -1,0 +1,1 @@
+"C:\Program Files\LibreOffice 5\program\soffice.exe" --headless -convert-to pdf --outdir E:\pdf\temp %1 -env:UserInstallation=$SYSUSERCONFIG/LibreOffice/4.3$USER

@@ -1,18 +1,15 @@
-package ld.fns.pdf.compress;
+package ld.fns.pdf.convert;
 
 import ld.fns.pdf.ExecUtil;
 
 import java.io.*;
-import java.util.UUID;
 
-public class PDFCompressGS {
-
-
-    static void compressPdf(InputStream input, OutputStream output) throws IOException {
+public class BatConvert {
+    public static void convertToPdf(InputStream input, OutputStream output) throws IOException, InterruptedException {
 
         File inpFile = File.createTempFile("INP", ".pdf");
         String inpFileName = inpFile.getAbsolutePath();
-        System.out.println(inpFileName);
+        System.out.println("imputfile = " + inpFileName);
         OutputStream outStream = null;
         try{
             outStream= new FileOutputStream(inpFile);
@@ -26,23 +23,23 @@ public class PDFCompressGS {
             if (outStream!=null)
                 outStream.close();
         }
-        File outFile = File.createTempFile("OUT", ".pdf");
-        String outFileName = outFile.getAbsolutePath();
-        System.out.println(outFileName);
+
         try {
-            // todo 64
-            String command = "gswin64c -sDEVICE=pdfwrite -sProcessColorModel=DeviceGray -sColorConversionStrategy=Gray -dOverrideICC -dPDFSETTINGS=/screen -dEmbedAllFonts=true -dSubsetFonts=true -dColorImageDownsampleType=/Bicubic -dColorImageResolution=150 -dGrayImageDownsampleType=/Bicubic -dGrayImageResolution=150 -dMonoImageDownsampleType=/Bicubic -dMonoImageResolution=150 -o \""+outFileName+"\" -f \""+inpFileName+"\"";
-            System.out.println(command);
+            String command = "c:\\pdftool\\lo_convert.bat \""+inpFileName+"\"";
+            System.out.println("convert command = " + command);
             ExecUtil.executeInTerminal(command);
-            //executeInTerminal("ping -n 3 google.com");
         } catch (InterruptedException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
+
+        int posSlash = inpFileName.lastIndexOf("\\");
+        int posExt = inpFileName.lastIndexOf(".");
+        File outFile = new File("c:\\pdftool\\temp\\" + inpFileName.substring(posSlash+1, posExt) + ".pdf");
+        System.out.println("outputfile = " + outFile.getAbsolutePath());
+
         OutputStream out = null;
         try{
             out = output;
-            System.out.println(outFile.getAbsolutePath());
             InputStream in = null;
             try{
                 in = new FileInputStream(outFile);
@@ -65,7 +62,16 @@ public class PDFCompressGS {
         }
         inpFile.delete();
         outFile.delete();
+
     }
 
+    public static void main(String[] args) {
+        String inpFileName = "C:\\aaa\\sss\\dddd.pdf";
+        int posSlash = inpFileName.lastIndexOf("\\");
+        int posExt = inpFileName.lastIndexOf(".");
+        String outFile = "c:\\pdftool\\temp\\" + inpFileName.substring(posSlash+1, posExt) + ".pdf";
+        System.out.println(outFile);
+
+    }
 
 }

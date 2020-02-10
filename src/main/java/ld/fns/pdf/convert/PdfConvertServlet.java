@@ -13,7 +13,7 @@ public class PdfConvertServlet extends HttpServlet {
 
     @Override
     protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        System.out.println("begin");
+        System.out.println("convert begin");
         if (!"POST".equals(request.getMethod()))
             return;
 
@@ -40,12 +40,12 @@ public class PdfConvertServlet extends HttpServlet {
 
         ByteArrayOutputStream bosResult = new ByteArrayOutputStream();
         // JOD CONVERTER requires Java7
-        try {
+/*        try {
             ConverterJod.convertToPdf(new FileInputStream(new File(inpFileName)), documentExtension, bosResult);
         } catch (OfficeException e) {
             e.printStackTrace();
             throw new ServletException(e);
-        }
+        }*/
 
         /*
         LDConvertDocument ldConvertDocument = new LDConvertDocument();
@@ -57,6 +57,14 @@ public class PdfConvertServlet extends HttpServlet {
             throw new ServletException(e);
         }*/
 
+        // CLI soffce.exe converter
+        try {
+            BatConvert.convertToPdf(new FileInputStream(new File(inpFileName)), bosResult);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+            throw new ServletException(e);
+        }
+
         response.setContentType("application/pdf");
         response.setHeader("Content-Disposition","attachment; filename=out.pdf");
         response.setContentLength(Long.valueOf(bosResult.size()).intValue());
@@ -66,7 +74,7 @@ public class PdfConvertServlet extends HttpServlet {
             ex.printStackTrace();
             throw new ServletException(ex);
         }
-        System.out.println("end. size = "+bosResult.size());
+        System.out.println("convert end. size = "+bosResult.size());
     }
 
 }
