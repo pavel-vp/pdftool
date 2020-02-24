@@ -1,5 +1,5 @@
 package ld.fns.pdf.convert;
-
+/*
 import org.jodconverter.JodConverter;
 import org.jodconverter.document.DefaultDocumentFormatRegistry;
 import org.jodconverter.document.DocumentFormat;
@@ -7,11 +7,11 @@ import org.jodconverter.office.LocalOfficeManager;
 import org.jodconverter.office.OfficeException;
 import org.jodconverter.office.OfficeManager;
 import org.jodconverter.office.OfficeUtils;
-
+*/
 import java.io.*;
 
 public class ConverterJod {
-
+/*
     public static void convertToPdf(InputStream input, String extension, OutputStream output) throws OfficeException {
         DocumentFormat documentFormat = DefaultDocumentFormatRegistry.getFormatByExtension(extension);
         if (documentFormat == null)
@@ -49,4 +49,6 @@ public class ConverterJod {
 
         convertToPdf(fis, part[1], fos);
     }
+
+ */
 }
